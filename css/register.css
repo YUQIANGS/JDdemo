@@ -1,0 +1,121 @@
+body{
+	background-color: white;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width: 100%;
+	height: 65px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	box-shadow: 0 5px 2px #F3F3F3;
+}
+.header a img{
+	float: left;
+	width: 150px;
+	height: 50px;
+	margin-left: 80px;
+}
+.header span{
+	font-family: "microsoft yahei";
+	height: 80px;
+	line-height: 80px;
+	float: left;
+	margin-left: 30px;
+	font-size: 26px;
+	font-weight: 500;
+}
+.header p{
+	font-family: "microsoft yahei";
+	margin-top: 40px;
+	margin-right: 80px;
+	float: right;
+	font-size: 15px;
+	color: #999;
+}
+.header p a{
+	color: black;
+	text-decoration: none;
+}
+.header p a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.content{
+	margin-top: 50px;
+	width: 60%;
+	height: auto;
+	border-right: 1px solid #ddd;
+	font-family: "Microsoft YaHei","Hiragino Sans GB";
+	color: #666;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+}
+.content .input{
+	width: 398px;
+	height: 52px;
+	line-height: 54px;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+	margin-bottom: 33px;
+}
+.content label{
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 16px;
+	height: 54px;
+	line-height: 54px;
+	width: 80px;
+}
+.content input{
+	width: 40%;
+	height: 40px;
+	border: 0;
+	padding-left: 40px;
+	outline: none;
+}
+.content button{
+	border: 0;
+	display: block;
+	width: 398px;
+	height: 54px;
+	background-color: red;
+	color: white;
+	margin: 0 auto;
+	font-size: 16px;
+	font-family: "Microsoft YaHei","Hiragino Sans GB";
+}
+.footer{
+	text-align: center;
+	color: #666;
+	font-size: 12px;
+	width: 790px;
+	margin: 0 auto;
+	padding: 30px 100px;
+}
+.footer ul{
+	list-style: none;
+}
+.footer ul li{
+	float: left;
+	width: 51px;
+	height: 15px;
+	margin-right: 10px;
+	padding-right: 9px;
+	border-right: 1px solid #666;
+}
+.footer ul li:last-child{
+	border: 0;
+}
+.footer ul li a{
+	text-decoration: none;
+	color: #666;
+}
+hr{
+	background-color: #ddd;
+	border: 0;
+	height: 1px;
+}
